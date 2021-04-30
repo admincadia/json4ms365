@@ -1,0 +1,39 @@
+{
+    "sections": [
+        {
+            "displayname": "Información",
+            "fields": [
+                "Etiqueta de activo",
+                "Fabricante",
+                "Modelo",
+                "Tipo de activo"
+            ]
+        },
+        {
+            "displayname": "Detalles",
+            "fields": [
+                "Número de serie",
+                "Nº de pedido",
+                "Color",
+                "Precio de compra",
+                "Fecha de compra"
+            ]
+        },
+        {
+            "displayname": "Propiedad",
+            "fields": [
+                "Propietario actual",
+                "Fecha de vencimiento",
+                "Propietario anterior"
+            ]
+        },
+        {
+            "displayname": "Estado",
+            "fields": [
+                "Estado",
+                "Notas sobre el estado",
+                "Foto del dispositivo"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+=SI([Validación_1]>46;"Mal";SI([Validación_1]<46;"Bien";))
+
+
+=SI([Validación_1]<46;"Mal")
+
+
+
+
+
+=SI([Puntuación]>89;"A";SI([Puntuación]>79;"B"; SI([Puntuación]>69;"C";SI([Puntuación]>59;"D";"F"))))
+
+
+
+YouTube video walkthrough - https://youtu.be/fb0ePBrifP0
+
+Use Asset Manager Microsoft Lists template
+
+Validation formula:
+=IF(AND(Status="In Use",ISBLANK([Due date])),FALSE,TRUE)
